@@ -1,0 +1,54 @@
+.appPage{
+  overflow: hidden;
+}
+.titleBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: #282828;
+  color: white;
+}
+.appTitle{
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bolder;
+  
+}
+.inputBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.inputLabel{
+  font-weight: bold;
+  font-size: 24px;
+  padding-right: 10px;
+}
+.yturl{
+  width:50%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 24px;
+}
+.buttonBox{
+  display: flex;
+  justify-content: center;
+}
+.convertButton{
+  background-color: #282828;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  height: 40px;
+  font-size: 24px;
+  border-radius: 10px;
+  border-width: 0;
+}
+.convertButton:hover{
+  background-color: #535353;
+}
+
+
+
